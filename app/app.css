@@ -91,3 +91,16 @@ h1 {
   font-size: 1.2em;
   font-weight: bold;
 }
+
+.pkg-price{
+  font-size: 26px;
+  color: red;
+}
+.img-item {
+  width: 220px;
+  min-height: 120px;
+  max-height: 120px;
+  /*float: left;*/
+  margin: 3px;
+  padding: 3px;
+}

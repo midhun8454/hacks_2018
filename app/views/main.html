@@ -7221,7 +7221,7 @@ define('typeahead/core/context', function() {
         <div class="modal-footer" style="margin-top:16px;">
 
           <button type="button" class="btn btn-primary">No. I want Expedia Normal Search</button>
-                    <button type="button" class="btn btn-success" ng-show="proceedShow">Yes.Proceed</button>
+                    <button type="button" class="btn btn-success" data-dismiss="modal" ng-show="proceedShow" ng-click="goToUDP('/udpPage')">Yes.Proceed</button>
         </div>
       </div>
     </div>

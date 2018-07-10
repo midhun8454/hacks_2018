@@ -13,6 +13,10 @@ app.
           templateUrl: './views/main.html',
           controller:'mainController'
         }).
-        otherwise('/phones');
+        when('/udpPage', {
+            templateUrl: './views/udpPage.html',
+            controller:'mainController'
+        }).
+        otherwise('/main');
     }
   ]);

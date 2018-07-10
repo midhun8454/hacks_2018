@@ -1,4 +1,4 @@
-app.controller('mainController', function($scope) {
+app.controller('mainController', function($scope,$location) {
     $scope.modelInnerContent=$('.sv_container').text();
     $scope.backLink=false;
 $scope.proceedShow=false;
@@ -92,7 +92,12 @@ $scope.select_text = "Please choose activities preferred" ;
             $scope.gangLink=true;
             $scope.gangContentMain=gangValue;
         }
-    }
+    };
+
+    $scope.goToUDP = function(path){
+        $(".modal-backdrop").css('display','none');
+        $location.path(path);
+    };
 
 
 });
