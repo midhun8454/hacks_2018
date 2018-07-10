@@ -1,6 +1,10 @@
-app.controller('mainController', function($scope,$location) {
+app.controller('mainController', function($scope,$location,$window) {
     $scope.modelInnerContent=$('.sv_container').text();
     $scope.backLink=false;
+    $scope.noExpedia=true;
+    $scope.modalContent=true;
+    $scope.loader=false;
+    $scope.info=true;
 $scope.proceedShow=false;
 $scope.purposeModel=true;
 $scope.progress=false;
@@ -88,16 +92,52 @@ $scope.select_text = "Please choose activities preferred" ;
         $scope.progress=true;
         if(gangValue!=undefined){
             $scope.pWidth=100;
-            $scope.proceedShow=true;
+            $scope.proceedShow=false;
             $scope.gangLink=true;
             $scope.gangContentMain=gangValue;
+            setTimeout(function(){angular.element('#proceed').triggerHandler('click');},1200);
+            $scope.noExpedia=true;
         }
     };
 
     $scope.goToUDP = function(path){
-        $(".modal-backdrop").css('display','none');
-        $location.path(path);
+        $scope.desc = "We are finding you the best package.Please wait ...";
+        $scope.modalContent=false;
+        $scope.loader=true;
+        $scope.info=false;
+        var text = $scope.desc ;
+
+        var chars = text.split('');
+        var container = document.getElementById("container");
+
+        var i = 0;
+        setInterval(function () {
+            if (i < chars.length) {
+                container.innerHTML += chars[i++];
+            } else {
+                i = 0;
+                container.innerHTML = "";
+            }
+        }, 100);
+
+        setTimeout(function(){
+           $('#myModal').hide();
+            $(".modal-backdrop").css('display','none');
+            $scope.gotToUdpPage('/udpPage')
+
+},5300);
+
     };
+
+    $scope.gotToUdpPage = function(path) {
+        $window.location.href = '/#!/udpPage';
+    }
+
+
+
+
+
 
 
 });
+

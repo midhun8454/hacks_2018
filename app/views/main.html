@@ -2,10 +2,32 @@
 <!DOCTYPE html>
 <html class="no-js   launch-view-home siteid-1 storefront-web" data-version="v2.176.3.367d3c32ba24d44a8a5b473c0f44bb9921ffcccd"  data-language="en_US"  lang="en" dir="ltr">
 
+
+
+
+
+
+
     <script type="text/javascript">
     $(document).ready(function(){
 
+        $.ajax({
+            method: 'GET',
+            url: 'https://apim.expedia.com/x/packages/2018-08-09/SEA/ORL/2018-08-12/ORL/SEA?regionid=178294&limit=10',
+            crossDomain: true,
+            xhrFields: {
+                withCredentials: true
+            },
+            headers: {
+                'Access-Control-Allow-Origin' : '*',
 
+                Accept: 'application/json',
+                key: '4f8ce657-ee06-4527-a8d8-4b207f8f0d62',
+            },
+            success: function (response, request) {
+debugger;
+            }
+        });
 
 
 
@@ -7173,7 +7195,7 @@ define('typeahead/core/context', function() {
           <span style="position:absolute;z-index:9999;font-size:14px;margin-left:22%;color: black;
     margin-top: 8px; text-decoration:underline;font-style: italic;">Fill below options and click on <span style="color:green;font-weight:bold;">Proceed</span> to book with Expedia Lite</span>
         </div>
-        <div class="modal-body" style="padding-bottom:29px !important;">
+        <div class="modal-body" ng-show="modalContent"  style="padding-bottom:29px !important;">
             <p style="    color: black;
     text-align: center;
     text-decoration: underline;">Lets help you to choose best package</p><img src="http://www.animatedgif.net/new/newspin2_e0.gif" style="position: absolute;
@@ -7208,6 +7230,12 @@ define('typeahead/core/context', function() {
             </div>
 
         </div>
+          <div ng-show="loader" id="container">
+
+<img  id="logo_expedia" src="./images/logo_alone.png"/>
+
+          </div>
+          <div ng-show="info">
           <span style="margin-left:193px;color:#3479b7;"><span ng-show="purposeLink">{{purposeContentMain}} <i class="fa fa-arrows-h"></i></span><span ng-show="activitiesLink">
               {{activitiesContentMain}} <i class="fa fa-arrows-h"></i></span><span ng-show="gangLink"> {{gangContentMain}}</span></span>
 
@@ -7218,10 +7246,12 @@ define('typeahead/core/context', function() {
 
           </div>
       </div>
+      </div>
+          <p typewrite type-delay="100" blink-cursor="false" text="We are finding you the best package.please wait..."></p>
         <div class="modal-footer" style="margin-top:16px;">
 
-          <button type="button" class="btn btn-primary">No. I want Expedia Normal Search</button>
-                    <button type="button" class="btn btn-success" data-dismiss="modal" ng-show="proceedShow" ng-click="goToUDP('/udpPage')">Yes.Proceed</button>
+          <button type="button" ng-show="noExpedia" class="btn btn-primary">No. I want Expedia Normal Search</button>
+            <button type="button" class="btn btn-success" data-dismiss="modal"  id="proceed" ng-show="proceedShow" ng-click="goToUDP('/udpPage');">Yes.Proceed</button>
         </div>
       </div>
     </div>
