@@ -17,6 +17,11 @@ app.
             templateUrl: './views/udpPage.html',
             controller:'mainController'
         }).
-        otherwise('/main');
+        when('/expertReviews', {
+            templateUrl: './views/expertReviews.html',
+            controller:'mainController'
+        }).
+
+      otherwise('/main');
     }
   ]);

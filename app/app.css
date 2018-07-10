@@ -104,3 +104,62 @@ h1 {
   margin: 3px;
   padding: 3px;
 }
+
+.user-designation{
+  font-size: 12px;
+  color: blue;
+}
+
+
+
+
+.review-img-item {
+  width: 100px;
+  min-height: 65px;
+  max-height: 65px;
+  /* float: left; */
+  margin: 3px;
+  padding: 3px;
+}
+
+.user-img {
+  width: 70px;
+  border-radius: 50%;
+  float: left;
+}
+
+.user-details{
+  margin-left: 10%;
+}
+
+.star-checked{
+  color: orange;
+}
+
+.review-card-block{
+  border: 1px solid darkgrey;
+  padding: 2%;
+  margin: 1%;
+  border-radius: 15px;
+}
+
+.slideimage_css{
+  object-fit: cover;
+  width: 210%;
+  margin-top: -25%;
+  height: 105px;
+  /*margin-left: 41px;*/
+  float: left;
+}
+
+.udp-thumbnail {
+
+}
+
+.details-modal-content {
+  width: 950px;
+}
+
+.borderclass{
+  border: 1px solid black;
+}
