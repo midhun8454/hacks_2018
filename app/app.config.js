@@ -1,7 +1,6 @@
 'use strict';
-
-angular.
-  module('phonecatApp').
+var app = angular.module("phonecatApp", ["ngRoute"]);
+app.
   config(['$locationProvider' ,'$routeProvider',
     function config($locationProvider, $routeProvider) {
       $locationProvider.hashPrefix('!');
@@ -11,7 +10,8 @@ angular.
           template: '<phone-list></phone-list>'
         }).
         when('/main', {
-          templateUrl: './views/main.html'
+          templateUrl: './views/main.html',
+          controller:'mainController'
         }).
         otherwise('/phones');
     }
