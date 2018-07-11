@@ -2,147 +2,147 @@
     /* padding: 1px; */
     margin-left: -25px;
     width: 103%;"><img src="./images/header.png" style="width:100%"/></div>
-<p>Hey you have almost 139 packages...</p>
+<p style="text-align: center;
+    font-size: 24px;
+    padding: 2%;">Hey you have  {{mainDataColl.length}} package...</p>
 
 
 
-
+<div ng-repeat="item in mainDataColl ">
 <div class="mainContainer row" style="height: 288px;padding:4px;">
     <div>
         <div class="hotelSection slideshow-container col-lg-4">
-
             <div class="mySlides">
-                <img  id="udpImages" src="./img/hotel/hotel1.jpeg" style="    object-fit: cover;width: 99%;height: 164px;">
+                <img  id="udpImages" ng-src="{{item.HotelReferenceIndex.Image_url_1}}" style="    object-fit: cover;width: 99%;height: 164px;">
             </div><br>
             <div class="row">
-                <div class="sideImage col-md-2"><img src="./img/hotel/hotel2.jpeg"  style="object-fit: cover;width: 210%;margin-top: -25%; height:105px;"/> </div>
-                <div class="sideImage col-md-2"><img src="./img/hotel/hotel3.jpeg" style="    object-fit: cover;
-    width: 210%;
-    margin-top: -25%;
-    height: 105px;
-    margin-left: 41px;"/></div>
-                <div class="sideImage col-md-2"><img src="./img/hotel/hotel5.jpeg" style="    object-fit: cover;
-    width: 210%;
-    margin-top: -25%;
-    height: 105px;
-    margin-left: 84px;"/></div>
-                <div class="sideImage col-md-2"><img src="./img/hotel/hotel4.jpeg" style="object-fit: cover;
-    width: 186%;
-    margin-top: -25%;
-    height: 105px;
-    margin-left: 126px;"/></div>
+                <div class="sideImage col-md-2"><img src="{{item.HotelReferenceIndex.Image_url_2}}"  style="object-fit: cover;width: 210%;margin-top: -25%; height:105px;"/> </div>
+                <div class="sideImage col-md-2"><img src="{{item.HotelReferenceIndex.Image_url_3}}" style="    object-fit: cover;width: 210%;margin-top: -25%;height: 105px;margin-left: 41px;"/></div>
+                <div class="sideImage col-md-2"><img src="{{item.HotelReferenceIndex.Image_url_1}}" style="    object-fit: cover;width: 210%;margin-top: -25%;height: 105px;margin-left: 84px;"/></div>
+                <div class="sideImage col-md-2"><img src="{{item.HotelReferenceIndex.Image_url_2}}" style="object-fit: cover;width: 186%;margin-top: -25%;height: 105px;margin-left: 126px;"/></div>
             </div>
 
         </div>
     </div>
-        <div class="flightSection col-lg-8">
-            <span style="font-size: 24px;color: #0a395d;">Hotel Name: </span><span style="font-size: 23px;text-decoration: underline;">Four Seasons Hotel Newyork</span><br>
-            <span style="font-size: 24px;color: #0a395d;">Flight Name: </span><span style="font-size: 23px;text-decoration: underline;">American Airlines</span>
+        <div class="flightSection col-lg-5">
+            <span style="font-size: 24px;color: #0a395d;">Hotel Name: </span><span style="font-size: 23px;text-decoration: underline;">{{item.HotelReferenceIndex.Name}}</span><br>
+            <span style="font-size: 24px;color: #0a395d;">Flight Name: </span><span style="font-size: 23px;text-decoration: underline;">{{item.FlightReferenceIndex.FlightItinerary.FlightLeg[0].FlightSegment[0].CarrierCode}}</span>,
+            <span style="font-size: 24px;color: #0a395d;">Hotel Rating : </span><span style="font-size: 23px;">{{item.HotelReferenceIndex.StarRating}}</span><br>
+            <span style="font-size: 24px;color: #0a395d;">Hotel Location : </span><span style="font-size: 23px;">{{item.HotelReferenceIndex.Location.StreetAddress}}<br>{{item.HotelReferenceIndex.Location.City}},{{item.HotelReferenceIndex.Location.Province}},{{item.HotelReferenceIndex.Location.PostalCode}}</span>
+        <hr>
+            <span>Activities </span><br><br>
+            <div>
+            <div class="sideImage col-md-2"><img src="./img/activities/act1.jpeg"  style="object-fit: cover;width: 110%;margin-top: -25%; height:65px;"/> </div>
+            <div class="sideImage col-md-2"><img src="./img/activities/act2.jpeg" style="    object-fit: cover;width: 110%;margin-top: -25%;height: 65px;margin-left: -13px;"/></div>
+            <div class="sideImage col-md-2"><img src="./img/activities/act3.jpeg" style="    object-fit: cover;width: 110%;margin-top: -25%;height: 65px;margin-left: -24px;"/></div>
+            <div class="sideImage col-md-2"><img src="./img/activities/act4.jpeg" style="object-fit: cover;width: 104%;margin-top: -25%;height: 67px;margin-left: -34px;"/></div>
+            </div>
+
         </div>
+    <div class="flightSection col-lg-3">
+        <span style="font-size: 24px;color: #0a395d;"> Flight Price:</span> <span style="font-size: 23px;;">{{item.FlightReferenceIndex.FlightPrice.TotalRate.Value}} $</span><br>
+        <span style="font-size: 24px;color: #0a395d;"> Hotel Price:</span> <span style="font-size: 23px;;">{{item.HotelReferenceIndex.HotelPrice.TotalRate.Value}} $</span><br>
+        <span style="font-size: 24px;color: #0a395d;"> Package Price:</span> <span style="font-size: 23px;;">{{item.PackagePrice.TotalPrice.Value}} $</span><br>
+        <span style="font-size: 24px;color: #0a395d;"> Total Savings:</span> <span style="font-size: 23px;;">{{item.PackagePrice.TotalSavings.Value}} $</span><br><br>
+        <span style="font-size: 24px;color: #0a395d;"> Inventory:</span> <span style="font-size: 23px;;">13 Available</span><br><br>
+        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Explore this package</button><br><br>
+        <button type="button" class="btn btn-success">Book Now</button>
+    </div>
 
 </div>
 <hr>
-<br>
-<div class="mainContainer row" style="height: 288px;padding:4px;">
-    <div>
-        <div class="hotelSection slideshow-container col-lg-4">
 
-            <div class="mySlides">
-                <img  id="udpImages" src="./img/hotel/hotel1.jpeg" style="    object-fit: cover;width: 99%;height: 164px;">
-            </div><br>
-            <div class="row">
-                <div class="sideImage col-md-2"><img src="./img/hotel/hotel2.jpeg"  style="object-fit: cover;width: 210%;margin-top: -25%; height:105px;"/> </div>
-                <div class="sideImage col-md-2"><img src="./img/hotel/hotel3.jpeg" style="    object-fit: cover;
-    width: 210%;
-    margin-top: -25%;
-    height: 105px;
-    margin-left: 41px;"/></div>
-                <div class="sideImage col-md-2"><img src="./img/hotel/hotel5.jpeg" style="    object-fit: cover;
-    width: 210%;
-    margin-top: -25%;
-    height: 105px;
-    margin-left: 84px;"/></div>
-                <div class="sideImage col-md-2"><img src="./img/hotel/hotel4.jpeg" style="object-fit: cover;
-    width: 186%;
-    margin-top: -25%;
-    height: 105px;
-    margin-left: 126px;"/></div>
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <img style="margin-top: -39px;" src="{{item.HotelReferenceIndex.OverviewThumbnail}}"/>
+                <h4  style="float: right;
+    margin-right: 79px;
+    /* margin-left: -15px; */
+    margin-top: -18px;" class="modal-title">{{item.HotelReferenceIndex.Name}}</h4>
+                <div ng-if="item.HotelReferenceIndex.StarRating == '2.0'"><img src="./images/2star.png" style="height: 30px;
+    float: right;
+    margin-right: 45px;
+    margin-top: -52px;"/></div>
+                <div ng-if="item.HotelReferenceIndex.StarRating == '3.0'"><img src="./images/3star.png" style="height: 30px;
+    float: right;
+    margin-right: 45px;
+    margin-top: -27px;"/></div>
+                <div ng-if="item.HotelReferenceIndex.StarRating == '3.5'"><img src="./images/3star.png" style="height: 30px;
+    float: right;
+    margin-right: 45px;
+    margin-top: -27px;"/></div>
             </div>
+            <div class="modal-body">
+                <p>Hotel Desc: {{item.HotelReferenceIndex.Description}}</p><br>
+                <p>Rooms Available : {{item.HotelReferenceIndex.RoomRatePlanDescription}}</p><br>
+                <div>
+                <p ng-click="reviewSection=!reviewSection" style="text-decoration: underline;
+    cursor: pointer;">Recent Reviews About this Hotel</p>
+                    <div ng-show="reviewSection">
+                <span>Its awesome Hotel to stay : Robin Harvinston</span><br>
+                <span>Overall Nice and very much impressed with service offered  : Iniesta</span><br>
+                 <span>Satisfied  : Lukaku</span><br></div>
 
-        </div>
-    </div>
-    <div class="flightSection col-lg-8">Flight Details</div>
+                </div>
 
-</div>
-<hr>
+
+                <br>
+                <p>Flight Desc: its being reviewed by 1342 persons as the best flight to travel</p><br>
+                <div>
+                    <p ng-click="reviewFlightSection=!reviewFlightSection" style="text-decoration: underline;
+    cursor: pointer;">Recent Reviews About this Flight</p>
+                    <div ng-show="reviewFlightSection">
+                        <span>Its awesome Flight to go : Robin Harvinston</span><br>
+                        <span>Overall Nice and very much impressed with service   : Iniesta</span><br>
+                        <span>Satisfied  : Lukaku</span><br></div>
+
+                </div>
+                <br>
+                <div>
+                    <p>More pics shared</p><br>
+                    <div class="row">
+                        <div class="sideImage col-md-2"><img src="{{item.HotelReferenceIndex.Image_url_2}}"  style="object-fit: cover;width: 210%;margin-top: -25%; height:105px;"/> </div>
+                        <div class="sideImage col-md-2"><img src="{{item.HotelReferenceIndex.Image_url_3}}" style="    object-fit: cover;width: 210%;margin-top: -25%;height: 105px;margin-left: 41px;"/></div>
+                        <div class="sideImage col-md-2"><img src="{{item.HotelReferenceIndex.Image_url_1}}" style="    object-fit: cover;width: 210%;margin-top: -25%;height: 105px;margin-left: 84px;"/></div>
+                        <div class="sideImage col-md-2"><img src="{{item.HotelReferenceIndex.Image_url_2}}" style="object-fit: cover;width: 186%;margin-top: -25%;height: 105px;margin-left: 126px;"/></div>
+                    </div>
+
+                </div>
+                <br>
+                <div>
+                    <p>Location & Attractions</p><br>
+                    <img src="./images/map_hotel1.png" style="width:100%"/><br>
+                    <p>Details: 4694 W Irlo Bronson Memorial Hwy, Kissimmee, FL 34746, USA</p>
+                </div>
+                <span id="marker1"  ><img src="./images/marker_green.png" ng-click="markerGreenClick('marker1')" style="width: 45px;position: absolute;margin-top: -291px;margin-left: 100px;cursor:pointer;"></span>
+                <span id="marker2"   ><img src="./images/marker_green.png" ng-click="markerGreenClick('marker2')" style="width: 45px;position: absolute;margin-top: -63px;margin-left: 223px;cursor:pointer;"></span>
+                <span id="marker3"  ><img src="./images/marker_green.png"  ng-click="markerGreenClick('marker3')"  style="width: 45px;position: absolute;margin-top: -143px;margin-left: 180px;cursor:pointer;"></span>
+                <span id="marker4"  ><img src="./images/marker_green.png"  ng-click="markerGreenClick('marker4')"  style="width: 45px;position: absolute;margin-top: -222px;margin-left: 342px;cursor:pointer;"></span>
+                <span id="marker5"  ><img src="./images/marker_green.png" ng-click="markerGreenClick('marker5')"  style="width: 45px;position: absolute;margin-top: -256px;margin-left: 178px;cursor:pointer;"></span>
 <br>
-<div class="mainContainer row" style="height: 288px;padding:4px;">
-    <div>
-        <div class="hotelSection slideshow-container col-lg-4">
+                <div ng-show="attrDetails">
+                   <p>Attraction Details</p><br><hr>
+                    <p>Name</p> :{{attrName}} <br>
+                    <p>Description :</p> {{attrDescription}}<br>
+                    <p>How far :</p>{{attrDistance}} from Hotel<br>
+                    <p>Expedia guest rating :</p>{{rating}}
+                </div>
 
-            <div class="mySlides">
-                <img  id="udpImages" src="./img/hotel/hotel1.jpeg" style="    object-fit: cover;width: 99%;height: 164px;">
-            </div><br>
-            <div class="row">
-                <div class="sideImage col-md-2"><img src="./img/hotel/hotel2.jpeg"  style="object-fit: cover;width: 210%;margin-top: -25%; height:105px;"/> </div>
-                <div class="sideImage col-md-2"><img src="./img/hotel/hotel3.jpeg" style="    object-fit: cover;
-    width: 210%;
-    margin-top: -25%;
-    height: 105px;
-    margin-left: 41px;"/></div>
-                <div class="sideImage col-md-2"><img src="./img/hotel/hotel5.jpeg" style="    object-fit: cover;
-    width: 210%;
-    margin-top: -25%;
-    height: 105px;
-    margin-left: 84px;"/></div>
-                <div class="sideImage col-md-2"><img src="./img/hotel/hotel4.jpeg" style="object-fit: cover;
-    width: 186%;
-    margin-top: -25%;
-    height: 105px;
-    margin-left: 126px;"/></div>
+
             </div>
-
-        </div>
-    </div>
-    <div class="flightSection col-lg-8">Flight Details</div>
-
-</div>
-<hr>
-<br>
-<div class="mainContainer row" style="height: 288px;padding:4px;">
-    <div>
-        <div class="hotelSection slideshow-container col-lg-4">
-
-            <div class="mySlides">
-                <img  id="udpImages" src="./img/hotel/hotel1.jpeg" style="    object-fit: cover;width: 99%;height: 164px;">
-            </div><br>
-            <div class="row">
-                <div class="sideImage col-md-2"><img src="./img/hotel/hotel2.jpeg"  style="object-fit: cover;width: 210%;margin-top: -25%; height:105px;"/> </div>
-                <div class="sideImage col-md-2"><img src="./img/hotel/hotel3.jpeg" style="    object-fit: cover;
-    width: 210%;
-    margin-top: -25%;
-    height: 105px;
-    margin-left: 41px;"/></div>
-                <div class="sideImage col-md-2"><img src="./img/hotel/hotel5.jpeg" style="    object-fit: cover;
-    width: 210%;
-    margin-top: -25%;
-    height: 105px;
-    margin-left: 84px;"/></div>
-                <div class="sideImage col-md-2"><img src="./img/hotel/hotel4.jpeg" style="object-fit: cover;
-    width: 186%;
-    margin-top: -25%;
-    height: 105px;
-    margin-left: 126px;"/></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
-
         </div>
+
     </div>
-    <div class="flightSection col-lg-8">Flight Details</div>
-
 </div>
-
-
-
+</div>
 
 
 

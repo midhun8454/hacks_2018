@@ -1,281 +1,151 @@
-<ul class="nobullet hotel-thumbnail-list cf">
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_54_d.jpg" class="hotel-thumbnail-link" data-index="0" data-subject="3" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_54_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_54_d.jpg" alt="Featured Image" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Featured Image</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_99_d.jpg" class="hotel-thumbnail-link" data-index="1" data-subject="10002" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_99_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_99_d.jpg" alt="Reception" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Reception</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_100_d.jpg" class="hotel-thumbnail-link" data-index="2" data-subject="10003" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_100_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_100_d.jpg" alt="Lobby Sitting Area" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Lobby Sitting Area</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_107_d.jpg" class="hotel-thumbnail-link" data-index="3" data-subject="10003" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_107_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_107_d.jpg" alt="Lobby Sitting Area" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Lobby Sitting Area</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_45_d.jpg" class="hotel-thumbnail-link" data-index="4" data-subject="21001" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_45_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_45_d.jpg" alt="Guestroom" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Guestroom</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_47_d.jpg" class="hotel-thumbnail-link" data-index="5" data-subject="21001" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_47_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_47_d.jpg" alt="Guestroom" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Guestroom</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_77_d.jpg" class="hotel-thumbnail-link" data-index="6" data-subject="21001" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_77_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_77_d.jpg" alt="Guestroom" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Guestroom</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_78_d.jpg" class="hotel-thumbnail-link" data-index="7" data-subject="21001" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_78_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_78_d.jpg" alt="Guestroom" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Guestroom</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_79_d.jpg" class="hotel-thumbnail-link" data-index="8" data-subject="21001" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_79_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_79_d.jpg" alt="Guestroom" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Guestroom</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_82_d.jpg" class="hotel-thumbnail-link" data-index="9" data-subject="21001" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_82_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_82_d.jpg" alt="Guestroom" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Guestroom</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_83_d.jpg" class="hotel-thumbnail-link" data-index="10" data-subject="21001" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_83_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_83_d.jpg" alt="Guestroom" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Guestroom</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_85_d.jpg" class="hotel-thumbnail-link" data-index="11" data-subject="21001" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_85_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_85_d.jpg" alt="Guestroom" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Guestroom</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_88_d.jpg" class="hotel-thumbnail-link" data-index="12" data-subject="21001" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_88_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_88_d.jpg" alt="Guestroom" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Guestroom</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_89_d.jpg" class="hotel-thumbnail-link" data-index="13" data-subject="21001" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_89_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_89_d.jpg" alt="Guestroom" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Guestroom</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_91_d.jpg" class="hotel-thumbnail-link" data-index="14" data-subject="21001" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_91_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_91_d.jpg" alt="Guestroom" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Guestroom</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_93_d.jpg" class="hotel-thumbnail-link" data-index="15" data-subject="21001" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_93_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_93_d.jpg" alt="Guestroom" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Guestroom</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_96_d.jpg" class="hotel-thumbnail-link" data-index="16" data-subject="21001" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_96_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_96_d.jpg" alt="Guestroom" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Guestroom</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_98_d.jpg" class="hotel-thumbnail-link" data-index="17" data-subject="21001" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_98_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_98_d.jpg" alt="Guestroom" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Guestroom</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_101_d.jpg" class="hotel-thumbnail-link" data-index="18" data-subject="21001" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_101_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_101_d.jpg" alt="Guestroom" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Guestroom</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_102_d.jpg" class="hotel-thumbnail-link" data-index="19" data-subject="21001" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_102_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_102_d.jpg" alt="Guestroom" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Guestroom</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_104_d.jpg" class="hotel-thumbnail-link" data-index="20" data-subject="21001" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_104_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_104_d.jpg" alt="Guestroom" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Guestroom</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_106_d.jpg" class="hotel-thumbnail-link" data-index="21" data-subject="21001" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_106_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_106_d.jpg" alt="Guestroom" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Guestroom</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_108_d.jpg" class="hotel-thumbnail-link" data-index="22" data-subject="21001" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_108_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_108_d.jpg" alt="Guestroom" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Guestroom</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_105_d.jpg" class="hotel-thumbnail-link" data-index="23" data-subject="22005" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_105_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_105_d.jpg" alt="Living Area" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Living Area</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_75_d.jpg" class="hotel-thumbnail-link" data-index="24" data-subject="23000" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_75_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_75_d.jpg" alt="Bathroom" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Bathroom</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_87_d.jpg" class="hotel-thumbnail-link" data-index="25" data-subject="23000" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_87_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_87_d.jpg" alt="Bathroom" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Bathroom</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_90_d.jpg" class="hotel-thumbnail-link" data-index="26" data-subject="23000" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_90_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_90_d.jpg" alt="Bathroom" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Bathroom</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_95_d.jpg" class="hotel-thumbnail-link" data-index="27" data-subject="23000" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_95_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_95_d.jpg" alt="Bathroom" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Bathroom</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/a8a1c961_d.jpg" class="hotel-thumbnail-link" data-index="28" data-subject="81003" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/a8a1c961_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/a8a1c961_d.jpg" alt="Restaurant" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Restaurant</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_97_d.jpg" class="hotel-thumbnail-link" data-index="29" data-subject="83009" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_97_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_97_d.jpg" alt="Meeting Facility" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Meeting Facility</figcaption>
-</figure>
-</a>
-</li>
-<li class="hotel-thumbnail">
-<a href="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_103_d.jpg" class="hotel-thumbnail-link" data-index="30" data-subject="91002" tabindex="0">
-<figure class="image background aspect-ratio1-1 gallery-modal-thumbnail" data-aspect-ratio="1-1" data-class="tile-media" data-src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_103_d.jpg">
-<noscript><img src="//images.trvl-media.com/hotels/1000000/70000/67800/67740/67740_103_d.jpg" alt="Hotel Entrance" class="tile-media" /></noscript>
-<span class="media-loader"><span aria-hidden="true" class=" loader-primary loader-light loader-static loading" title="Loading..."></span></span>
-<figcaption class="visuallyhidden">Hotel Entrance</figcaption>
-</figure>
-</a>
-</li>
-</ul>
+<div id="header" style="margin-top: -40px;
+    /* padding: 1px; */
+    margin-left: -25px;
+    width: 103%;"><img src="./images/header.png" style="width:100%"/></div>
+<p style="text-align: center;
+    font-size: 24px;
+    padding: 2%;">Hey you have  {{mainDataColl.length}} package...</p>
+
+
+
+<div ng-repeat="item in mainDataColl ">
+<div class="mainContainer row" style="height: 288px;padding:4px;">
+    <div>
+        <div class="hotelSection slideshow-container col-lg-4">
+            <div class="mySlides">
+                <img  id="udpImages" ng-src="{{item.HotelReferenceIndex.Image_url_1}}" style="    object-fit: cover;width: 99%;height: 164px;">
+            </div><br>
+            <div class="row">
+                <div class="sideImage col-md-2"><img src="{{item.HotelReferenceIndex.Image_url_2}}"  style="object-fit: cover;width: 210%;margin-top: -25%; height:105px;"/> </div>
+                <div class="sideImage col-md-2"><img src="{{item.HotelReferenceIndex.Image_url_3}}" style="    object-fit: cover;width: 210%;margin-top: -25%;height: 105px;margin-left: 41px;"/></div>
+                <div class="sideImage col-md-2"><img src="{{item.HotelReferenceIndex.Image_url_1}}" style="    object-fit: cover;width: 210%;margin-top: -25%;height: 105px;margin-left: 84px;"/></div>
+                <div class="sideImage col-md-2"><img src="{{item.HotelReferenceIndex.Image_url_2}}" style="object-fit: cover;width: 186%;margin-top: -25%;height: 105px;margin-left: 126px;"/></div>
+            </div>
+
+        </div>
+    </div>
+        <div class="flightSection col-lg-5">
+            <span style="font-size: 24px;color: #0a395d;">Hotel Name: </span><span style="font-size: 23px;text-decoration: underline;">{{item.HotelReferenceIndex.Name}}</span><br>
+            <span style="font-size: 24px;color: #0a395d;">Flight Name: </span><span style="font-size: 23px;text-decoration: underline;">{{item.FlightReferenceIndex.FlightItinerary.FlightLeg[0].FlightSegment[0].CarrierCode}}</span>,
+            <span style="font-size: 24px;color: #0a395d;">Hotel Rating : </span><span style="font-size: 23px;">{{item.HotelReferenceIndex.StarRating}}</span><br>
+            <span style="font-size: 24px;color: #0a395d;">Hotel Location : </span><span style="font-size: 23px;">{{item.HotelReferenceIndex.Location.StreetAddress}}<br>{{item.HotelReferenceIndex.Location.City}},{{item.HotelReferenceIndex.Location.Province}},{{item.HotelReferenceIndex.Location.PostalCode}}</span>
+        <hr>
+            <span>Activities </span><br><br>
+            <div>
+            <div class="sideImage col-md-2"><img src="./img/activities/act1.jpeg"  style="object-fit: cover;width: 110%;margin-top: -25%; height:65px;"/> </div>
+            <div class="sideImage col-md-2"><img src="./img/activities/act2.jpeg" style="    object-fit: cover;width: 110%;margin-top: -25%;height: 65px;margin-left: -13px;"/></div>
+            <div class="sideImage col-md-2"><img src="./img/activities/act3.jpeg" style="    object-fit: cover;width: 110%;margin-top: -25%;height: 65px;margin-left: -24px;"/></div>
+            <div class="sideImage col-md-2"><img src="./img/activities/act4.jpeg" style="object-fit: cover;width: 104%;margin-top: -25%;height: 67px;margin-left: -34px;"/></div>
+            </div>
+
+        </div>
+    <div class="flightSection col-lg-3">
+        <span style="font-size: 24px;color: #0a395d;"> Flight Price:</span> <span style="font-size: 23px;;">{{item.FlightReferenceIndex.FlightPrice.TotalRate.Value}} $</span><br>
+        <span style="font-size: 24px;color: #0a395d;"> Hotel Price:</span> <span style="font-size: 23px;;">{{item.HotelReferenceIndex.HotelPrice.TotalRate.Value}} $</span><br>
+        <span style="font-size: 24px;color: #0a395d;"> Package Price:</span> <span style="font-size: 23px;;">{{item.PackagePrice.TotalPrice.Value}} $</span><br>
+        <span style="font-size: 24px;color: #0a395d;"> Total Savings:</span> <span style="font-size: 23px;;">{{item.PackagePrice.TotalSavings.Value}} $</span><br><br>
+        <span style="font-size: 24px;color: #0a395d;"> Inventory:</span> <span style="font-size: 23px;;">13 Available</span><br><br>
+        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Explore this package</button><br><br>
+        <button type="button" class="btn btn-success">Book Now</button>
+    </div>
+
+</div>
+<hr>
+
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <img style="margin-top: -39px;" src="{{item.HotelReferenceIndex.OverviewThumbnail}}"/>
+                <h4  style="float: right;
+    margin-right: 79px;
+    /* margin-left: -15px; */
+    margin-top: -18px;" class="modal-title">{{item.HotelReferenceIndex.Name}}</h4>
+                <div ng-if="item.HotelReferenceIndex.StarRating == '2.0'"><img src="./images/2star.png" style="height: 30px;
+    float: right;
+    margin-right: 45px;
+    margin-top: -52px;"/></div>
+                <div ng-if="item.HotelReferenceIndex.StarRating == '3.0'"><img src="./images/3star.png" style="height: 30px;
+    float: right;
+    margin-right: 45px;
+    margin-top: -27px;"/></div>
+                <div ng-if="item.HotelReferenceIndex.StarRating == '3.5'"><img src="./images/3star.png" style="height: 30px;
+    float: right;
+    margin-right: 45px;
+    margin-top: -27px;"/></div>
+            </div>
+            <div class="modal-body">
+                <p>Hotel Desc: {{item.HotelReferenceIndex.Description}}</p><br>
+                <p>Rooms Available : {{item.HotelReferenceIndex.RoomRatePlanDescription}}</p><br>
+                <div>
+                <p ng-click="reviewSection=!reviewSection" style="text-decoration: underline;
+    cursor: pointer;">Recent Reviews About this Hotel</p>
+                    <div ng-show="reviewSection">
+                <span>Its awesome Hotel to stay : Robin Harvinston</span><br>
+                <span>Overall Nice and very much impressed with service offered  : Iniesta</span><br>
+                 <span>Satisfied  : Lukaku</span><br></div>
+
+                </div>
+
+
+                <br>
+                <p>Flight Desc: its being reviewed by 1342 persons as the best flight to travel</p><br>
+                <div>
+                    <p ng-click="reviewFlightSection=!reviewFlightSection" style="text-decoration: underline;
+    cursor: pointer;">Recent Reviews About this Flight</p>
+                    <div ng-show="reviewFlightSection">
+                        <span>Its awesome Flight to go : Robin Harvinston</span><br>
+                        <span>Overall Nice and very much impressed with service   : Iniesta</span><br>
+                        <span>Satisfied  : Lukaku</span><br></div>
+
+                </div>
+                <br>
+                <div>
+                    <p>More pics shared</p><br>
+                    <div class="row">
+                        <div class="sideImage col-md-2"><img src="{{item.HotelReferenceIndex.Image_url_2}}"  style="object-fit: cover;width: 210%;margin-top: -25%; height:105px;"/> </div>
+                        <div class="sideImage col-md-2"><img src="{{item.HotelReferenceIndex.Image_url_3}}" style="    object-fit: cover;width: 210%;margin-top: -25%;height: 105px;margin-left: 41px;"/></div>
+                        <div class="sideImage col-md-2"><img src="{{item.HotelReferenceIndex.Image_url_1}}" style="    object-fit: cover;width: 210%;margin-top: -25%;height: 105px;margin-left: 84px;"/></div>
+                        <div class="sideImage col-md-2"><img src="{{item.HotelReferenceIndex.Image_url_2}}" style="object-fit: cover;width: 186%;margin-top: -25%;height: 105px;margin-left: 126px;"/></div>
+                    </div>
+
+                </div>
+                <br>
+                <div>
+                    <p>Location & Attractions</p><br>
+                    <img src="./images/map_hotel1.png" style="width:100%"/><br>
+                    <p>Details: 4694 W Irlo Bronson Memorial Hwy, Kissimmee, FL 34746, USA</p>
+                </div>
+                <span id="marker1"  ><img src="./images/marker_green.png" ng-click="markerGreenClick('marker1')" style="width: 45px;position: absolute;margin-top: -291px;margin-left: 100px;cursor:pointer;"></span>
+                <span id="marker2"   ><img src="./images/marker_green.png" ng-click="markerGreenClick('marker2')" style="width: 45px;position: absolute;margin-top: -63px;margin-left: 223px;cursor:pointer;"></span>
+                <span id="marker3"  ><img src="./images/marker_green.png"  ng-click="markerGreenClick('marker3')"  style="width: 45px;position: absolute;margin-top: -143px;margin-left: 180px;cursor:pointer;"></span>
+                <span id="marker4"  ><img src="./images/marker_green.png"  ng-click="markerGreenClick('marker4')"  style="width: 45px;position: absolute;margin-top: -222px;margin-left: 342px;cursor:pointer;"></span>
+                <span id="marker5"  ><img src="./images/marker_green.png" ng-click="markerGreenClick('marker5')"  style="width: 45px;position: absolute;margin-top: -256px;margin-left: 178px;cursor:pointer;"></span>
+<br>
+                <div ng-show="attrDetails">
+                   <p>Attraction Details</p><br><hr>
+                    <p>Name</p> :{{attrName}} <br>
+                    <p>Description :</p> {{attrDescription}}<br>
+                    <p>How far :</p>{{attrDistance}} from Hotel<br>
+                    <p>Expedia guest rating :</p>{{rating}}
+                </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+
+
+
+</body>
+</html>

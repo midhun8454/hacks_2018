@@ -11,105 +11,9 @@
     <script type="text/javascript">
     $(document).ready(function(){
 
-        $.ajax({
-            method: 'GET',
-            url: 'https://apim.expedia.com/x/packages/2018-08-09/SEA/ORL/2018-08-12/ORL/SEA?regionid=178294&limit=10',
-            crossDomain: true,
-            xhrFields: {
-                withCredentials: true
-            },
-            headers: {
-                'Access-Control-Allow-Origin' : '*',
-
-                Accept: 'application/json',
-                key: '4f8ce657-ee06-4527-a8d8-4b207f8f0d62',
-            },
-            success: function (response, request) {
-debugger;
-            }
-        });
 
 
 
-
-
-
-    	$('#search-button-hp-package1').click(function(){
-    		$('#trigger-btn').trigger('click');
-    		alert(1);
-    		$('.modal-backdrop').css("z-index", "0");
-    		alert(1);
-    		return false; 
-    	});
-
-    	$('#trigger-btn').click(function(){
-    		$('.modal-backdrop').css("z-index", "0");
-
-    	});
-Survey.Survey.cssType = "bootstrap";
-
-var json = {
-    title: "Please answer below questions..",
-    showProgressBar: "bottom",
-    showTimerPanel: "top",
-    maxTimeToFinishPage: 10,
-    maxTimeToFinish: 25,
-    firstPageIsStarted: true,
-    startSurveyText: "Go Ahead",
-    pages: [
-        {
-            questions: [
-                {
-                    type: "html",
-                    html: "<div style='color:black;width:603px;margin-left:-25px;' ng-model='beginText'>Lets Help you to find the best package.<br/></div>"
-                }
-            ]
-        }, {
-            questions: [
-                {
-                    type: "dropdown",
-                    name: "Purpose of visit",
-                    title: "What is the purpose of your visit",
-                    choices: [
-                        "Business", "Educational", "Holidays", "Honeymoon","Other"
-                    ]
-                }
-            ]
-        }, {
-            questions: [
-                {
-                    type: "dropdown",
-                    name: "Activities",
-                    title: "What all activities do you prefer ?'",
-                    choicesOrder: "random",
-                    choices: [
-                        "Adventurous", "Business Meetings", "Beaches", "Desert","Other"
-                    ]
-                }
-            ]
-        }, {
-            questions: [
-                {
-                    type: "dropdown",
-                    name: "Travelling with ..",
-                    title: "Travelling with ..'",
-                    choicesOrder: "random",
-                    choices: [
-                        "Family", "Colleagues", "Friends", "Couple","Other"
-                    ]
-                }
-            ]
-        }
-    ]
-};
-
-var survey = new Survey.Model(json);
-
-
-
-$("#surveyElement").Survey({
-  model: survey
-});
     });
     </script>
 <script type="text/javascript">
@@ -5422,7 +5326,7 @@ define('typeahead/core/context', function() {
             <input aria-autocomplete="list"
                    aria-owns="typeaheadDataPlain"
                    autocomplete="off"
-                   value="New York (NYC-All Airports)"
+                   value="Las Vegas, Nevada"
                    class="clear-btn-input gcw-storeable text gcw-destination gcw-required gcw-distinct-locations main-letters-color"
                            aria-required="true"
 
@@ -6023,7 +5927,7 @@ define('typeahead/core/context', function() {
                  data-gcw-storeable-name="gcw-start-date"
                  data-gcw-field-type="departing date"
                  data-new-pkg-default-date="0"
-                 value="08/22/2018"
+                 value="09-08-2018"
                  data-new-pkg-trip-duration="1">
               <span class="icons-container">
                 <span class="uitk-icon uitk-icon-calendar" data-control="uitk-icon" aria-hidden="true">
@@ -6051,7 +5955,7 @@ define('typeahead/core/context', function() {
                 placeholder="mm/dd/yyyy"
                 data-gcw-date-format="mm/dd/yyyy"
                 autocomplete="off"
-                value="08/27/2018"
+                value="10-08-2018"
                 data-gcw-storeable-name="gcw-end-date"
                 data-gcw-field-type="returning date"
                 data-gcw-max-range-error="gcw_max_range_nights"
@@ -7193,7 +7097,7 @@ define('typeahead/core/context', function() {
     background-color: #fec900;
     font-weight: bold;">10273 people booked with <span style="font-size:18px;">Expedia Lite</span> and found it useful!</span><br/>
           <span style="position:absolute;z-index:9999;font-size:14px;margin-left:22%;color: black;
-    margin-top: 8px; text-decoration:underline;font-style: italic;">Fill below options and click on <span style="color:green;font-weight:bold;">Proceed</span> to book with Expedia Lite</span>
+    margin-top: 8px; text-decoration:underline;font-style: italic;">Fill below options and  <span style="color:green;font-weight:bold;">Proceed</span> to book with Expedia Lite</span>
         </div>
         <div class="modal-body" ng-show="modalContent"  style="padding-bottom:29px !important;">
             <p style="    color: black;
@@ -7209,40 +7113,58 @@ define('typeahead/core/context', function() {
          <div style="margin-left: 58px;" ng-show="purposeModel" >
            <span style="color:black">{{select_text}} : </span>
              <select  style="width:270px;color: black;
-    background-color: #fff2cc;" ng-model="purposeValue" ng-change="purposeChange(purposeValue)">
-                 <option   ng-repeat="x in choices">{{x}}</option>
+    background-color: #fff2cc;" ng-model="purposeValue"  ng-change="purposeChange(purposeValue)">
+
+                 <option selected=""  ng-repeat="x in choices">{{x}}</option>
              </select>
          </div>
-            <div style="margin-left: 56px;" ng-show="activitiesModel">
+            <div style="" ng-show="activitiesModel">
                 <span style="color:black">{{select_text}} : </span>
                 <select style="width:270px;color: black;
-    background-color: #fff2cc;" ng-model="activitiesValue" ng-change="activitiesChange(activitiesValue)">
-                    <option   ng-repeat="x in choices">{{x}}</option>
+    background-color: #fff2cc;" ng-model="activitiesValue"  ng-change="activitiesChange(activitiesValue)">
+                    <option selected=""  ng-repeat="x in choices">{{x}}</option>
                 </select>
             </div>
-            <div  style="margin-left: 58px;" ng-show="gangModel">
+            <div  style="margin-left: 58px;margin-top:40px;" ng-show="gangModel">
                 <span style="color:black">{{select_text}} :</span>
-                <select style="width:270px;color: black;
-    background-color: #fff2cc;" ng-model="gangValue" ng-change="gangChange(gangValue)">
+                <select style="width:270px;color: black;display:none;
+    background-color: #fff2cc;" ng-model="gangValue"  ng-change="gangChange(gangValue)">
                     <option  ng-repeat="x in choices">{{x}}</option>
                 </select>
-            </div>
-            </div>
 
+                <div id="wrapper">
+                    <form action="somelink" method="post">
+                        <div id="slider"  ng-model="sliderVal" ng-change="sliderChange()" style="width: 50%;
+    float: right;
+    margin-top: -19px;
+    margin-right: 116px;"></div><br>
+                        <div id="info" style="color: black;
+    margin-left: 436px;
+    margin-top: -49px;"></div>
+                    </form>
+                </div>
+            </div>
+            </div>
+            <span ng-mouseover="makeProgress()" style="color: black;
+    margin-left: 460px;
+    margin-top: 8px;opacity:0.2;
+
+    position: absolute;">.</span>
         </div>
+
           <div ng-show="loader" id="container">
 
 <img  id="logo_expedia" src="./images/logo_alone.png"/>
 
           </div>
           <div ng-show="info">
-          <span style="margin-left:193px;color:#3479b7;"><span ng-show="purposeLink">{{purposeContentMain}} <i class="fa fa-arrows-h"></i></span><span ng-show="activitiesLink">
-              {{activitiesContentMain}} <i class="fa fa-arrows-h"></i></span><span ng-show="gangLink"> {{gangContentMain}}</span></span>
+          <span style="margin-left:217px;color:#3479b7;"><span ng-show="purposeLink">{{purposeContentMain}} <i class="fa fa-arrows-h"></i></span><span ng-show="activitiesLink">
+              {{activitiesContentMain}} <i class="fa fa-arrows-h"></i></span><span id="info1"></span>
 
 
 
-          <div class="progress" ng-show="progress" style="margin-left:21%;height:10px;margin-top:10px;">
-          <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:{{pWidth}}%;background-color:#5bb85b !important">
+          <div class="progress" ng-show="progress" style="margin-left:21%;height:10px;margin-top:10px;width: 63%;">
+          <div class="progress-bar" id="pValue" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:{{pWidth}}%;background-color:#5bb85b !important">
 
           </div>
       </div>

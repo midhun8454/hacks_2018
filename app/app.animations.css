@@ -129,7 +129,36 @@ margin-top: 19px;
     max-width: 100%;
     max-height: 100%;
 }
+#avia_range_slider
+{
+    margin: 0 1em;
+    display: inline-block;
+    min-width: 320px;
+    width: 50%;
+}
+#slider
+{
+    width:30%;
+}
 
+#input-select,
+#input-number {
+    padding: 7px;
+    margin: 15px 5px 5px;
+    width: 70px;
+}
 
+.noUi-horizontal {
+    height: 10px;
+    margin-bottom: 30px;
+}
+.noUi-horizontal .noUi-handle {
+    width: 30px;
+    height: 30px;
+    left: -17px;
+    top: -10px;
+    border-radius: 50%;
+    outline: 0;
+}
 
 /* Older browsers might need vendor-prefixes for keyframes and animation! */

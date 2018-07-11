@@ -15,7 +15,8 @@ app.
         }).
         when('/udpPage', {
             templateUrl: './views/udpPage.html',
-            controller:'mainController'
+          controller:'udpController'
+
         }).
         when('/expertReviews', {
             templateUrl: './views/expertReviews.html',
