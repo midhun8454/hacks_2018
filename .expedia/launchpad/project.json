@@ -1,10 +1,10 @@
 {
 	"name": "Expedia Lite",
 	"enabled": true,
-	"icon": 63,
+	"icon": 17,
 	"team": "iTIN Savvy",
-	"team-email": "no-reply@expedia.com",
-	"slack-channel": "#<team-slack-channel>",
+	"team-email": "v-mnair@expedia.com",
+	"slack-channel": "#ewe-cko-dhruv",
 	"tag-line": "Will come up with fast  booking package for all kind of people.",
 	"links": [
 		{
