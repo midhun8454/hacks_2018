@@ -84,9 +84,15 @@
                 <p ng-click="reviewSection=!reviewSection" style="text-decoration: underline;
     cursor: pointer;">Recent Reviews About this Hotel</p>
                     <div ng-show="reviewSection">
-                <span>Its awesome Hotel to stay : Robin Harvinston</span><br>
-                <span>Overall Nice and very much impressed with service offered  : Iniesta</span><br>
-                 <span>Satisfied  : Lukaku</span><br></div>
+                        <span><p>' Its awesome Hotel to stay ' : </p><p style="font-size: 16px;
+    font-weight: bold;
+    font-style: italic;"> Robin Harvinston</p></span><br>
+                        <span><p>' Overall Nice and very much impressed with service offered '  :</p> <p style="font-size: 16px;
+    font-weight: bold;
+    font-style: italic;"> Iniesta</p></span><br>
+                        <span><p>' Satisfied '  :</p> <p style="font-size: 16px;
+    font-weight: bold;
+    font-style: italic;">Lukaku</p></span><br></div>
 
                 </div>
 
@@ -97,9 +103,15 @@
                     <p ng-click="reviewFlightSection=!reviewFlightSection" style="text-decoration: underline;
     cursor: pointer;">Recent Reviews About this Flight</p>
                     <div ng-show="reviewFlightSection">
-                        <span>Its awesome Flight to go : Robin Harvinston</span><br>
-                        <span>Overall Nice and very much impressed with service   : Iniesta</span><br>
-                        <span>Satisfied  : Lukaku</span><br></div>
+                        <span><p>' Its awesome Flight to go ' : </p> <p style="font-size: 16px;
+    font-weight: bold;
+    font-style: italic;">Robin Harvinston</p></span><br>
+                        <span><p>' Overall Nice and very much impressed with service '   :</p> <p style="font-size: 16px;
+    font-weight: bold;
+    font-style: italic;">Iniesta</p></span><br>
+                        <span><p>' Satisfied '  :</p> <p style="font-size: 16px;
+    font-weight: bold;
+    font-style: italic;">Lukaku</p></span><br></div>
 
                 </div>
                 <br>
@@ -120,17 +132,29 @@
                     <p>Details: 4694 W Irlo Bronson Memorial Hwy, Kissimmee, FL 34746, USA</p>
                 </div>
                 <span id="marker1"  ><img src="./images/marker_green.png" ng-click="markerGreenClick('marker1')" style="width: 45px;position: absolute;margin-top: -291px;margin-left: 100px;cursor:pointer;"></span>
-                <span id="marker2"   ><img src="./images/marker_green.png" ng-click="markerGreenClick('marker2')" style="width: 45px;position: absolute;margin-top: -63px;margin-left: 223px;cursor:pointer;"></span>
+                <span id="marker2"   ><img src="./images/marker_green.png" ng-click="markerGreenClick('marker2')" style="width: 45px;position: absolute;margin-top: -88px;margin-left: 223px;cursor:pointer;"></span>
                 <span id="marker3"  ><img src="./images/marker_green.png"  ng-click="markerGreenClick('marker3')"  style="width: 45px;position: absolute;margin-top: -143px;margin-left: 180px;cursor:pointer;"></span>
                 <span id="marker4"  ><img src="./images/marker_green.png"  ng-click="markerGreenClick('marker4')"  style="width: 45px;position: absolute;margin-top: -222px;margin-left: 342px;cursor:pointer;"></span>
                 <span id="marker5"  ><img src="./images/marker_green.png" ng-click="markerGreenClick('marker5')"  style="width: 45px;position: absolute;margin-top: -256px;margin-left: 178px;cursor:pointer;"></span>
 <br>
                 <div ng-show="attrDetails">
                    <p>Attraction Details</p><br><hr>
-                    <p>Name</p> :{{attrName}} <br>
-                    <p>Description :</p> {{attrDescription}}<br>
-                    <p>How far :</p>{{attrDistance}} from Hotel<br>
-                    <p>Expedia guest rating :</p>{{rating}}
+                    <span><p style="color: black;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 18px;">Name</p> {{attrName}} </span> <br>
+                    <span><p style="color: black;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 18px;">Description </p> {{attrDescription}}</span><br>
+                    <span><p style="color: black;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 18px;">How far : {{attrDistance}} from Hotel</p></span><br>
+                   <span> <p style="color: black;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 18px;">Expedia guest rating : {{rating}}</p></span>
                 </div>
 
 

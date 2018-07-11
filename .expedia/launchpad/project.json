@@ -1,0 +1,24 @@
+{
+	"name": "project name",
+	"enabled": true,
+	"icon": 63,
+	"team": "iTIN Savvy",
+	"team-email": "no-reply@expedia.com",
+	"slack-channel": "#<team-slack-channel>",
+	"tag-line": "Will come up with fast  booking package for all kind of people.",
+	"links": [
+		{
+			"name": "Example Link",
+			"url": "http://<link_url>"
+		}
+	],
+	"tags": [
+		"Hackathon 7.0"
+	],
+	"contributors": [
+		"mnair",
+		"sasasi",
+		"nvenkatesh",
+		"jmaliyakkal"
+	]
+}
